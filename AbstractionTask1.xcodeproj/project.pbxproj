@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		38B8C8CD2B70FA8600F51E50 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38B8C8CC2B70FA8600F51E50 /* main.cpp */; };
+		38B8C8D62B70FC1F00F51E50 /* in.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38B8C8D32B70FB3500F51E50 /* in.txt */; };
+		38B8C8D92B710D7E00F51E50 /* out.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38B8C8D42B70FBAF00F51E50 /* out.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +22,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		38B8C8D52B70FC0000F51E50 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				38B8C8D62B70FC1F00F51E50 /* in.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B8C8D82B710D7100F51E50 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				38B8C8D92B710D7E00F51E50 /* out.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		38B8C8C92B70FA8600F51E50 /* AbstractionTask1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractionTask1; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B8C8CC2B70FA8600F51E50 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		38B8C8D32B70FB3500F51E50 /* in.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = in.txt; sourceTree = "<group>"; };
+		38B8C8D42B70FBAF00F51E50 /* out.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = out.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				38B8C8CC2B70FA8600F51E50 /* main.cpp */,
+				38B8C8D32B70FB3500F51E50 /* in.txt */,
+				38B8C8D42B70FBAF00F51E50 /* out.txt */,
 			);
 			path = AbstractionTask1;
 			sourceTree = "<group>";
@@ -72,6 +98,8 @@
 				38B8C8C52B70FA8600F51E50 /* Sources */,
 				38B8C8C62B70FA8600F51E50 /* Frameworks */,
 				38B8C8C72B70FA8600F51E50 /* CopyFiles */,
+				38B8C8D52B70FC0000F51E50 /* CopyFiles */,
+				38B8C8D82B710D7100F51E50 /* CopyFiles */,
 			);
 			buildRules = (
 			);
